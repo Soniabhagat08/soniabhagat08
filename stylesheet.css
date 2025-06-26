@@ -1,0 +1,161 @@
+.
+{
+    margin:0%
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins',sans-serif;
+    
+    
+}
+
+body{
+    color:#ededed;
+   
+    animation: slideTop 2s ease forwards;
+    background-color: antiquewhite;
+   
+}
+.header
+{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%; 
+    margin-right:2px;
+    padding:20px 20px;
+    background-color: transparent;
+    display:flex;
+    justify-content: space-between;
+    
+
+        
+}
+
+.logo
+{
+    position:relative;
+    font-size:25px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+  
+   
+}
+.navbar a{
+    
+display: inline-block;
+font-size: 25px;
+color:#fff;
+text-decoration: none;
+font-weight: 500;
+
+padding:20px;
+transition:0.25s;
+}
+
+
+.navbar a:hover{
+    color:#0ef;
+}
+.home
+{
+   
+    width: 100%;
+  
+    height:100vh;
+    background:url(Photos/pic1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 60px 0;
+    
+
+}
+
+.home-content
+{
+    max-width:600px;
+}
+.home-content h3{
+    font-size:32px;
+    font-weight: 700;
+    margin-top:-30px;
+}
+
+.text
+{
+color:#0ef;
+box-shadow: 0px 0px 10px teal;
+padding:5px 5px 5px;
+border-radius: 5px;
+
+
+}
+.home-content h1{
+    font-size:48px;
+    font-weight: 700;
+    margin-top: -10px;
+    
+}
+.home-content h2{
+    font-size:32px;
+    font-weight:700;
+    margin-top: -30px;
+}
+
+.icons a
+{
+    display: inline-flex;
+    justify-content: center;
+align-items: center;
+width:40px;
+height: 40px;
+background-color:transparent;
+margin:10px 10px 10px;
+border:5px solid rgb(68, 166, 166);
+border-radius:50%;
+color:rgb(68, 166, 166);
+
+}
+
+.icons a:hover{
+    background-color:rgb(68, 166, 166);
+    color:rgb(10, 6, 54);
+    box-shadow: 0px 0px 20px teal;
+
+
+}
+
+.btn-box{
+    background-color:rgb(68, 166, 166);;
+  color:bisque;
+    padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size:20px;
+  margin-left:48px;
+}
+.btn-box:hover{
+    background-color:rgb(68, 166, 166);
+    color:white;
+    box-shadow: 0px 0px 20px teal;
+}
+
+@keyframes slideTop{
+    0%{
+        transform: translate(-100px);
+        opacity:0;
+    }
+     100%{
+        transform: translate(0px);
+        opacity:1;
+    }
+}
+
+.about{
+    
+   margin-left:500px;
+}
