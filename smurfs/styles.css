@@ -225,3 +225,120 @@ video
   width:200%;
   border-radius: 10px;
 }
+
+
+
+
+/* 📱 MOBILE RESPONSIVE DESIGN */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+  }
+
+  .logo {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+
+  header
+  {
+    margin-bottom:-10px;
+  }
+
+  header ol {
+    width: 80%;
+
+    font-size: 18px;
+    padding: 20px 10px 10px;
+   
+margin-left:0px;
+    margin-top: -10px;
+    text-align: center;
+gap: 10px;
+  }
+
+  header ol li {
+ padding:10px;
+    margin: 10px 0;
+  }
+
+
+  header ol:hover {
+    color:blue;
+  }
+
+
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 5px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #navbar a {
+    font-size: 18px;
+  }
+
+#photo
+
+{
+margin-top:459px;
+width:108%;
+
+}
+
+  #photo img {
+    width: 100%;
+    height: auto;
+margin-bottom:80px;
+
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .cards {
+    width: 30%;
+   height:
+    margin: 10px auto;
+  }
+
+  video {
+    width: 110%;
+    height: auto;
+  }
+
+  #trailer {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .footer img {
+    width: 110%;
+  }
+
+.footer h3{
+font-size: 8px;;
+}
+
+  .btn,
+  button {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
