@@ -235,35 +235,7 @@ button li{
   list-style: none;
 }
 
-/*
-#navbar ol
-{
 
-font-size: 15px;
-width:700px;
-text-align: center;
-margin-left:370px;
-height:40px;
-border-radius: 50px;
-}
-#navbar ol li{
-      margin-top:35px;
-list-style:none;
-cursor:pointer;
-display: inline;
-margin-left:25px;
-cursor: pointer;
-background-color:#2c2c2e;;
-border-radius: 100px;
-padding: 10px;
-
-}
-
-#navbar ol li a:active{
-    color:orange;
-    
-}
-    */
 
 .mood-control
 {
