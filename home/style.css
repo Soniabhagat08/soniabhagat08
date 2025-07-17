@@ -299,6 +299,12 @@ input[type="range"] {
 
     /* --- MOBILE RESPONSIVE--- */
     @media (max-width: 600px) {
+
+.header{
+  margin-left:-40px;
+}
+
+        
       .weather-card
       {
         margin-left:-0.80px;
