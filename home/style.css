@@ -271,12 +271,12 @@ input[type="range"] {
 
     /* --- MOBILE RESPONSIVE--- */
     @media (max-width: 600px) {
-
 .header{
   margin-left:-40px;
 }
 
-        
+
+
       .weather-card
       {
         margin-left:-0.80px;
@@ -288,7 +288,7 @@ input[type="range"] {
       
 .mood-control
 {
-  margin-left:40px;
+  margin-left:60px;
   
 }
 .moods {
@@ -333,16 +333,18 @@ transition:0.50s;
 
 }
 
-.title
+.title h1
 
 {
+  
   font-size:8px;
-  margin-top:-10px;
+  margin-bottom:2px;
 }
 
 #btn{
+  margin-top:-8px;
   background: rgb(64, 85, 86);
-font-size:5px;
+font-size:10px;
 
 }  
 
