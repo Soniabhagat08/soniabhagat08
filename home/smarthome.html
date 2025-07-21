@@ -71,7 +71,7 @@
 </div>
 <div class="des">
   
-  <button id="btn"><li><a href="guest.html" target="blank">Acess devices</a></li></button>
+  <button id="btn"><li><a href="guestroom.html" target="blank">Acess devices</a></li></button>
 </div>
 </div>
 </div>
@@ -104,7 +104,7 @@
 </div>
 <div class="des">
   
-  <button id="btn"><li><a href="living.html" target="blank">Acess devices</a></li></button>
+  <button id="btn"><li><a href="livingroom.html" target="blank">Acess devices</a></li></button>
 </div>
 </div>
 </div>
@@ -149,7 +149,7 @@ $("#home").animate({top:"10px"},100).delay(100)
 $("#home").animate({padding:"+=1px"},1000,mycolor).delay(5000)
   
 })
-var r,g,b,c
+/*var r,g,b,c
 
 function mycolor()
 {
@@ -170,13 +170,13 @@ d.style.color=c
 
 }
 
-// Load saved theme
+*/
 if (localStorage.getItem('theme') === 'light') {
   document.body.classList.add('light');
 }
 
 
-// Theme toggle
+
 document.getElementById('theme-toggle').addEventListener('click', () => {
   document.body.classList.toggle('light');
   localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
@@ -233,7 +233,7 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
     updateTime();
     renderForecast();
 
-// Mood selection
+
 const moodButtons = document.querySelectorAll('.mood-btn');
 const savedMood = localStorage.getItem('mood');
 
@@ -247,7 +247,7 @@ moodButtons.forEach(btn => {
   });
 });
 
-// Timer value
+
 const timer = document.getElementById('timer');
 const timerValue = document.getElementById('timer-value');
 
