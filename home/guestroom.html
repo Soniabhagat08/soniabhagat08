@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Guest Room </title>
+    <title> BedRoom </title>
     <link rel="icon" type="image" href="images/guestp.jpg">
 
       
@@ -31,7 +31,7 @@
 #pic
 {
     border-radius: 20px;
-    
+    margin-left:10px;
 }
 
    
@@ -82,7 +82,7 @@
 #pic
 {
   width:390px;
-  height:390px;
+  height:300px;
 }
 .control-panel {
       display: flex;
@@ -105,14 +105,14 @@
 
 <body>
     <div id="para">
-    <p>Guest Room 🏚️</p>
+    <p>Bedroom 🛏️</p>
 </div>
  <section class="room-gallery">
     
   
      
     <div class="room-card">
-      <img id="pic" src="images/guest.jpg" width="1500" height="600" alt="Guest Room"/>
+      <img id="pic" src="images/bedroom2.jpg" width="1500" height="600" alt=oom"/>
          <h2 style="margin-left:20px;">Control Devices 🕹️</h2>
     </div>
   </section>
@@ -129,21 +129,22 @@
       <div class="icon"> <img style="height: 40px;" src="images/ac.png"> </div>
       <div>Air Conditioner  </div>
       <div class="status">Off</div>
+      
+    </div>
+    <div class="device off" onclick="toggleDevice(this)">
+      <div class="icon">☢  </div>
+      <div>Fan</div>
+      <div class="status">Off</div>
     </div>
     <div class="device off" onclick="toggleDevice(this)">
       <div class="icon">📺</div>
       <div>TV</div>
       <div class="status">Off</div>
     </div>
-    <div class="device off" onclick="toggleDevice(this)">
-      <div class="icon">📶 </div>
-      <div>Wi-Fi</div>
-      <div class="status">Off</div>
-    </div>
-
+   
  <div class="device off" onclick="toggleDevice(this)">
-      <div class="icon"> 🔓</div>
-      <div>Smart Lock</div>
+      <div class="icon"> 🎵</div>
+      <div>Home Theatre</div>
       <div class="status">Off</div>
     </div>
 
