@@ -28,7 +28,7 @@
 }
 #pic
 {
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
    
@@ -75,11 +75,13 @@
 
     /* --- MOBILE RESPONSIVE--- */
     @media (max-width: 600px) {
-     
+      body{
+        overflow-x: hidden;
+      }
 #pic
 {
-  width:390px;
-  height:390px;
+  width:460px;
+  height:400px;
 }
 .control-panel {
       display: flex;
@@ -92,7 +94,7 @@
 .device{
   margin-bottom:20px;
  
-  width:410px;
+  width:450px;
 }
       
     }
@@ -109,18 +111,26 @@
   
      
     <div class="room-card">
-      <img id="pic" src="images/living.jpg" width="1480" height="600" alt="Living Room"/>
+      <img id="pic" src="images/livingr1.png" width="1480" height="600" alt="Living Room"/>
          <h2 style="margin-left:20px;">Control Devices 🕹️</h2>
     </div>
   </section>
 
 
 <div class="control-panel">
+  
     <div class="device on" onclick="toggleDevice(this)">
       <div class="icon">💡</div>
       <div>Light Bulbs</div>
       <div class="status">On</div>
     </div>
+
+  <div class="device off" onclick="toggleDevice(this)">
+      <div class="icon">☢  </div>
+      <div>Fan</div>
+      <div class="status">Off</div>
+    </div>
+
     <div class="device off" onclick="toggleDevice(this)">
         
       <div class="icon"> <img style="height: 40px;" src="images/ac.png"> </div>
@@ -132,11 +142,7 @@
       <div>TV</div>
       <div class="status">Off</div>
     </div>
-    <div class="device off" onclick="toggleDevice(this)">
-      <div class="icon">☢  </div>
-      <div>Fan</div>
-      <div class="status">Off</div>
-    </div>
+  
 
       <div class="device off" onclick="toggleDevice(this)">
       <div class="icon"><img style="height: 40px;" src="images/lamp.png">  </div>
