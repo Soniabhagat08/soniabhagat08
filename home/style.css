@@ -391,6 +391,8 @@ font-size:15px;
     @media (max-width: 500px) {
 body{
   margin:5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 
 }
 
@@ -486,6 +488,7 @@ font-size:10px;
 }  
 
     }
+
 
 
 
