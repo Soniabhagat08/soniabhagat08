@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x:  hidden;
+}
+#logo
+{
+    width:70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-left:20px;
+
+    }
+
+
+#nav-bar{
+    width: 100%;
+// position: sticky;
+position: fixed;
+    top: 0px;
+      z-index:10;   
+ 
+}
+
+.navbar
+{position: fixed;
+    background-image: linear-gradient(to right,#BDBDBD, #696969);
+}
+.navbar-nav li{
+    padding:0 10px;
+}
+
+.navbar-nav li a{
+color: beige;
+font-size: 20px; 
+font-weight: 600;
+}
+.navbar-nav li a:hover
+
+    {
+color: beige;
+font-size: 22px;
+text-decoration: underline;
+transition: 0.2s;
+    }
+
+#gen-ai
+{
+    margin-top:80px;
+background-image: linear-gradient(to right,#BDBDBD, #696969);
+color: beige;  
+padding-top: 5%;  
+}  
+
+#que
+{
+    font-size:50px;
+    font-weight: 600;
+}
+
+  button
+{
+    background-color:black;
+  padding: 15px;
+border-radius: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+ 
+}
+
+button li a{
+  text-decoration: none;
+  color: #f0f4f4;
+ 
+}
+
+button li{
+  list-style: none;
+}
+
+.img-fluid
+{
+    margin-bottom:50px;
+    border-radius: 20px;
+    margin-top:10px;
+}
+
+.bottom-img
+{
+    width:100%;
+}
+.service-img
+{
+    width:300px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#services
+{
+    padding:40px 0;
+}
+
+.services-ser
+{
+    padding:20px;
+}
+
+.services h4{
+    padding:5px;
+    margin-top:25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.title
+{
+    text-align:center;
+}
+
+.title:before
+{
+    content:'';
+    text-align:center;
+    background:#696969;
+    height:5px;
+    width:200px;
+    border-radius: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    transform: translateY(48px);
+}
+
+
+
+#services .btn-secondary
+{
+    margin-left:550px;
+    box-shadow:none;
+    padding:8px 25px;
+    font-weight: 600;
+    
+}
+
+#developers
+{
+    background:#cbd4dd;
+    padding-bottom:50px;
+    padding-top:50px;
+}
