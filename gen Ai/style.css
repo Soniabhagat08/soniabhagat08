@@ -364,13 +364,57 @@ text-align:center;
     content:'';
     text-align:center;
     background:#720090;
-    height:3px;
-    width:120px;
+    height:5px;
+    width:150px;
     border-radius: 20px;
     margin-left:auto; 
     margin-right:auto;
     display: block;
     transform: translateY(34px);
+
 } 
+
+#ai-apps
+{
+    margin-top:120px;
+    padding:100px 0;
+    //background: #f8f9fa;
+    width:100%;
+    height:auto;
+    background:#fff0f5;
+    border:4px  solid #7b1798;
+    
+}
+
+
+#ai-apps img{
+    width:80px;
+    height: 60px;
+    margin: 10px 10px 10px;
+    margin-top:40px;
+    margin-left:10px;
+    transition: 0.3s;
+    border-radius: 50px;
+  
+}
+#ai-apps p
+{
+font-size: 15px;
+font-weight: 600;
+margin-left:-0px;
+
+}
+#ai-apps a:hover img{
+    transform: translateY(-20px);
+ 
+}
+#ai-apps #aivisit
+{
+   // margin-left:10px;
+    margin-top:30px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
 
     }
